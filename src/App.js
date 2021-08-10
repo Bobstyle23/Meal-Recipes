@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import Recipes from "./components/Recipes";
 import axios from "axios";
 
-const appId = "3681a864";
-const appKey = "e69c2c126b0e1f9d6bd7e7a5e90d78f9";
+const appId = //Your app id
+const appKey = //Your api key
 
 function App() {
   const [recipes, setRecipes] = useState([]);
